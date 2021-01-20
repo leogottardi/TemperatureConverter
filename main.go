@@ -23,14 +23,6 @@ type Object struct {
 	Celsius float64
 }
 
-type Temperature struct {
-	Value float64
-}
-
-type Structure struct {
-	Main interface{}
-}
-
 func ReadFile(path string) string {
 	file, err := ioutil.ReadFile(path)
 
